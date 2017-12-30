@@ -1,0 +1,139 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login to Continue</title>
+        <style>
+            input[type=text ]:focus
+            {
+                background-color:  #ffcccc;
+            }
+             input[type=password]:focus
+             {
+                 background-color:  #ffcccc;
+             }
+            #log
+            {
+                background-image: url(us.png),url(bg.jpg);
+                background-repeat: no-repeat;
+                background-size: 28px 28px;
+                text-indent: 30px;
+                border-radius: 10px;
+                font-size: 30px;
+            } 
+            #pass
+            {
+                background-image: url(lock.png),url(bg.jpg);
+                background-repeat: no-repeat;
+                background-size: 28px 31px;
+                text-indent: 30px;
+                border-radius: 10px;
+                font-size: 30px;
+            }
+            #font
+            {
+                 font-family: Euphemia;
+                 margin-left: -192px;
+                 
+            }
+            .login:hover
+            {
+                background-color:  #006633;   
+            }
+            .login
+            {
+                background-color: green;
+                color:white;
+                border-color: #006600;
+                border-radius: 12px;
+                width: 85px;
+                height: 42px;
+            }
+            html
+            {
+                background-color:  #006633;
+                
+               
+            }
+            .upper
+            {
+                margin-bottom: -50px;
+                margin-top: -20px;
+                margin-left: 10px;
+            }
+           .center
+           {
+               background-color: #006666;
+               margin-left: 380px;
+               margin-right: 365px;
+               margin-top: 40px;
+               border-radius: 30px;
+               
+           }
+            H1
+            {
+                background-color:  #660000;
+                font-size: 50px;
+                border-radius: 10px;
+            }
+           
+            input{
+                font-size: 20px;
+            }
+            ::placeholder
+            {
+                font-size: 20px;
+            }
+            
+        </style>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    
+    <body>    
+        
+    <center class="upper"><img src="p.png"/></center>   
+    <center class="center">
+        <P style="font-size:40px;"><B>Login</B></P>
+        <form action="index.jsp" method="get">
+            <table>
+                
+            <tr>
+                 
+                <td><input type="text" id="log" name="id" value="" placeholder="Enrollment ID*" required autofocus /></td>
+             </tr>
+             <tr></tr>
+             <tr></tr>
+            <tr>
+             
+              <td><input type="password" id="pass" name="pass" value="" placeholder="Password*" required autocomplete="off"/></td>
+            </tr>
+            </table>
+            <table>
+                <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+            <tr>
+                <td style=" font-size: 125%;">
+                    <input id="font" type="checkbox" name="chkbox" value="ON" checked="checked" />Remember me
+                </td>
+            </tr>
+            
+            </table>
+            <table>
+            <tr>
+                <td>
+                    <input class="login" type="submit" value="Log In" name="login" />
+                </td>
+            </tr>
+            </table>
+          
+            <p style=" font-size: 140%;">Don't have an account yet! <a style="color:  #ff6666" href="logsignup.html">Click Here</a>
+        </form>
+    </center>
+    
+    </body>
+</html>

@@ -1,0 +1,111 @@
+         h1{
+                background-image: url("sbk.jpg");
+                color: white;
+                margin-top: -10px;
+                margin-bottom: -16px;
+                margin-left: -11px;
+                margin-right: -11px;
+            }
+#logmenu ul
+{
+   list-style: none;
+   background-color: black;
+   
+}
+#logmenu ul li
+{
+    line-height: 35px;
+    text-align: center;
+    float: right;
+    position: relative;
+}
+#logmenu ul li a
+{
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+#logmenu ul li a:hover
+{
+    background-color: #339900;
+}
+#logmenu ul ul
+{
+    position: absolute;
+    display: none;
+}
+#logmenu ul li:hover > ul
+{
+    display: block;
+}
+#logmenu ul ul ul
+{
+  margin-top: -35px;
+    margin-left: 80px;   
+}            
+            
+            
+            
+            
+#menu ul
+{
+   list-style: none;
+}
+#menu ul li
+{
+    background-color: black;
+    
+    width:120px;
+    height:35px;
+    line-height: 35px;
+    text-align: center;
+    float:left;
+    position: relative;
+   
+}
+#menu ul li a
+{
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+#menu ul li a:hover
+{
+    background-color: #cc0000;
+            
+}
+#menu ul ul
+{
+    position: absolute;
+    display: none;
+}
+#menu ul li:hover > ul
+{
+    display: block;
+}
+#menu ul ul
+{
+    margin-left: -40px; 
+}
+#menu ul ul ul
+{
+  margin-top: -35px;
+  margin-left: 80px;
+}
+.menubkcolor
+{
+    background-color: black;
+    height:35px;
+    margin-left: -55px;
+    margin-right: -11px;
+}
+header
+{
+    
+    top: 0;
+    right:0;
+    left:0;
+    padding:0.2%;
+    text-align: center;
+    
+}

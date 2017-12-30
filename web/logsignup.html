@@ -1,0 +1,90 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student portal</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+	#font
+	{
+		font-size:40px;
+	}
+	input
+	{
+		font-size:30px;
+	}
+        .button
+            {
+                margin-left: 120px;
+                border-color:  #990000;
+                border-radius: 12px;
+                width: 140px;
+                height: 42px;
+                background-color: #990000;
+                color:white;
+                text-indent: 0px;
+            }
+            .button:hover
+            {
+                background-color: #cb0707;
+            }
+            input
+            {
+                border-radius: 10px;
+                text-indent: 10px;
+            }
+        ::placeholder
+        {
+            font-size: 20px;
+        }
+	</style>
+    </head>
+    
+    <body style="background-color: #006633">
+	
+        
+    <center>
+        <form action="signup.jsp" method="post" style=" border-radius:30px;background-color: #006666;margin-left:400px;margin-right:370px;margin-top:50px;" id="font">
+            <h1 style="border-radius:12px;margin-bottom: 10px;">Sign up </h1>
+            <table>	
+                <tr>        
+                    <td><input type="text" placeholder="Enrollment Id*" name="eid" required autofocus></td>
+            </tr>
+                <tr>
+                    
+                    <td><input type="text" placeholder="First Name*" name="fname" required ></td>
+            </tr>
+            <tr>
+                
+                <td><input type="text" placeholder="Last Name*" name="lname" required ></td>
+            </tr>
+            <tr>
+                 
+                <td><input id="password" name="password" type="password" pattern="^\S{6,}$" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Must have at least 6 characters' : ''); if(this.checkValidity()) form.password_two.pattern = this.value;" placeholder="Password*" required></td>
+            </tr>
+            <tr>
+                 
+                <td><input id="password_two" name="password_two" type="password" pattern="^\S{6,}$" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Please enter the same Password as above' : '');" placeholder="Confirm Password*" required></td>
+            </tr>
+            <tr>
+                
+                <td><input type="email" placeholder="Email*" name="email" required ></td>
+            </tr>
+            <tr>
+                
+                <td><input type="text" placeholder="Mobile*" name="mob" required ></td>
+            </tr>
+            <tr>
+                
+                <td><input class="button" value="Register" type="submit" name="singup" ></td>
+            </tr>
+            </table>
+            
+
+        </form>
+    </center>
+    </body>
+</html>
